@@ -1,15 +1,11 @@
 var React = require('react');
 var transparentBg = require('../styles').transparentBg;
 
-var ConfirmBattle = React.createClass({
+function ConfirmBattle (props){
+    return props.isLoading === true
+        ? <p>Loading...</p>
+        : <p>Confirm Battle!</p>;
 
-    render: function () {
-        return (
-            <div>
-            Confirm Battle!
-            </div>
-        );
-    }
-});
+};
 
 module.exports = ConfirmBattle;

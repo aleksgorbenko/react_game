@@ -11,12 +11,14 @@
   "author": "Aleks Gorbenko",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.2",
     "raven-js": "^3.7.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-router": "^2.8.1"
   },
   "devDependencies": {
+    "@types/axios": "^0.9.32",
     "@types/babel-core": "^6.7.14",
     "@types/html-webpack-plugin": "^2.22.3",
     "@types/raven-js": "0.0.17",
@@ -32,6 +34,7 @@
     "eslint": "^3.8.1",
     "eslint-plugin-react": "^6.4.1",
     "html-webpack-plugin": "^2.7.1",
+    "json-loader": "^0.5.4",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"
   }
