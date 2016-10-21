@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "./node_modules/@types",
   "scripts": {
     "prod": "webpack -p",
     "start": "webpack-dev-server"
@@ -10,17 +11,26 @@
   "author": "Aleks Gorbenko",
   "license": "ISC",
   "dependencies": {
+    "raven-js": "^3.7.0",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "react-router": "^2.8.1"
   },
   "devDependencies": {
     "@types/babel-core": "^6.7.14",
     "@types/html-webpack-plugin": "^2.22.3",
+    "@types/raven-js": "0.0.17",
+    "@types/react": "^0.14.41",
+    "@types/react-dom": "^0.14.18",
+    "@types/react-router": "^2.0.38",
     "@types/webpack": "^1.12.35",
     "@types/webpack-dev-server": "^1.12.1",
     "babel-core": "^6.4.5",
+    "babel-eslint": "^7.0.0",
     "babel-loader": "^6.2.1",
     "babel-preset-react": "^6.3.13",
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1",
     "html-webpack-plugin": "^2.7.1",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"
