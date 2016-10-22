@@ -8,7 +8,7 @@ var ConfirmBattleContainer = React.createClass({
     },
     getInitialState: function () {
         return {
-            isLoading: false,
+            isLoading: true,
             playersInfo: []
         };
     },
@@ -29,7 +29,7 @@ var ConfirmBattleContainer = React.createClass({
             .then(function (players) {
                 // console.log(players);
                 this.setState({
-                    isLoading: true,
+                    isLoading: false,
                     playersInfo: [players[0], players[1]]
                 });
             }.bind(this));

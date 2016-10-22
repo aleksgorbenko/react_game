@@ -24,6 +24,8 @@ function getPlayersData(player) {
     return getRepos(player.login)
         .then(getTotalStars)
         .then(function (totalStars) {
+            console.log(player);
+            console.log('we are here');
             return {
                 followers: player.followers,
                 totalStars: totalStars,

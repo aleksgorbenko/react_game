@@ -14,6 +14,7 @@
     "axios": "^0.15.2",
     "raven-js": "^3.7.0",
     "react": "^0.14.6",
+    "react-addons-css-transition-group": "^15.3.2",
     "react-dom": "^0.14.6",
     "react-router": "^2.8.1"
   },
@@ -23,6 +24,7 @@
     "@types/html-webpack-plugin": "^2.22.3",
     "@types/raven-js": "0.0.17",
     "@types/react": "^0.14.41",
+    "@types/react-addons-css-transition-group": "^0.14.17",
     "@types/react-dom": "^0.14.18",
     "@types/react-router": "^2.0.38",
     "@types/webpack": "^1.12.35",
@@ -31,10 +33,12 @@
     "babel-eslint": "^7.0.0",
     "babel-loader": "^6.2.1",
     "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.25.0",
     "eslint": "^3.8.1",
     "eslint-plugin-react": "^6.4.1",
     "html-webpack-plugin": "^2.7.1",
     "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"
   }

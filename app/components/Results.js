@@ -22,7 +22,7 @@ function StartOver() {
 
 function Results(props) {
     if (props.isLoading === true) {
-        return <Loading text='Just a second' speed={200}/>;
+        return <Loading text='Battle In Progress' speed={1000}/>;
     }
 
     if (props.scores[0] === props.scores[1]) {
@@ -55,7 +55,6 @@ function Results(props) {
 };
 
 Results.propTypes = {
-    isLoading: PropTypes.bool.isRequired,
     scores: PropTypes.array.isRequired,
     playersInfo: PropTypes.array.isRequired
 };

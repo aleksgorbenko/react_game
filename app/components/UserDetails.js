@@ -2,6 +2,7 @@ var React = require('react');
 var PropTypes = React.PropTypes;
 
 function UserDetails(user) {
+    console.log(user.info);
     return (
         <div>
             {!!user.score &&

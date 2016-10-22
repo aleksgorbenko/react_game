@@ -3,10 +3,6 @@ var Results = require('../components/Results');
 var githubHelpers = require('../utils/githubHelpers');
 
 var ResultsContainer = React.createClass({
-    contextTypes: {
-        router: React.PropTypes.object.isRequired
-    },
-
     getInitialState: function() {
         return {
             isLoading: true,
