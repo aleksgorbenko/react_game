@@ -10,7 +10,10 @@ function Home() {
             <h1>Github Battle</h1>
             <p className='lead'>Fight between Github Accounts</p>
             <Link to='/playerOne'>
-                <button type='button' className='btn btn-lg btn-success'>Battle!</button>
+                <button type='button'
+                        className='btn btn-lg btn-danger'>
+                        Battle!
+                </button>
             </Link>
         </MainContainer>
     );

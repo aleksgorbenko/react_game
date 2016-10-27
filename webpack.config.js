@@ -18,7 +18,8 @@ module.exports = {
         loaders: [
             { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
             { test: /\.json$/, loader: 'json-loader' },
-            { test: /\.css$/, loader: 'style-loader!css-loader' }
+            { test: /\.css$/, loader: 'style-loader!css-loader' },
+            { test: /\.jpg$/, loader: "file-loader" }
         ]
     },
     plugins: [HTMLWebpackPluginConfig]
